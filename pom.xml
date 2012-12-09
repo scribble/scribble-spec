@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.scribble.docs</groupId>
+  <artifactId>scribble-spec</artifactId>
+  <version>0.2</version>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>latex-maven-plugin</artifactId>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <repositories>
+    <repository>
+      <id>codehaus</id>
+      <name>Maven Codehaus repository</name>
+      <url>http://repository.codehaus.org/</url>
+    </repository>
+    <repository>
+      <id>codehaus-snapshots</id>
+      <name>Maven Codehaus snapshot repository</name>
+      <url>http://snapshots.repository.codehaus.org/</url>
+    </repository>
+  </repositories>
+
+</project>
